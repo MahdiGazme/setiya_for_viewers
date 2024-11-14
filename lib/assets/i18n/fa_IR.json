@@ -1,0 +1,441 @@
+{
+  "setia_module": {
+    "pages": {
+      "normal_users_page": {
+        "add_user": "افزودن کاربر"
+      },
+      "change_password": {
+        "change_password_title": "ویرایش کلمه عبور",
+        "old_pasword": "کلمه عبور قبلی",
+        "new_password": "کلمه عبور جدید",
+        "repeat_password": "تکرار کلمه عبور",
+        "change_password_was_success": "ویرایش کلمه عبور موفق بود"
+      },
+      "login": {
+        "title": "ورود",
+        "no_account": "حساب کابری ندارید؟ به ستیا بپیوندید",
+        "password": "کلمه عبور",
+        "button": "ورود",
+        "form_title": "ورود به حساب کاربری"
+      },
+      "main_menu": {
+        "management": "مدیریت",
+        "my_child": "فرزند من",
+        "profile": "نمایه",
+        "news": "خبرنامه",
+        "qr_code": "کد الکترونیکی",
+        "log_out": "خروج از حساب",
+        "contact_us": "تماس با ما",
+        "events": "رویداد ها",
+        "event_survey": "نظرسنجی",
+        "user_login": "ورود کاربر",
+        "login_alert": "برای استفاده از همه امکانات ستیا لطفا وارد حساب کاربری خود شوید",
+        "authorize_alert": "برای تکمیل فرآیند ثبت نام احراز هویت خود را تکمیل کنید",
+        "autorize_button": "احراز هویت"
+      },
+      "management": {
+        "authorize_request": {
+          "title": "راستی آزمایی",
+          "children": "فرزندان :",
+          "request_response": "پاسخ درخواست",
+          "request_details": "جزئیات درخواست",
+          "nationalcode": "کد ملی",
+          "request_response_dialog_title": "پاسخ درخواست راستی آزمایی",
+          "are_the_displayed_specifications_acceptable_to_you": "آیا مشخصات نمایش داده شده مورد تایید شماست؟",
+          "no": "نه",
+          "yes": "بله"
+        },
+        "authorize_request_list": {
+          "no_request": "درخواستی برای نمایش وجود ندارد",
+          "title": "درخواست راستی آزمایی"
+        },
+        "change_role_dialog": {
+          "title": "ویرایش سطح دسترسی",
+          "hint": "با تغییر سطح دسترسی،محدودیت های مربوط به سطح دسترسی مورد نظر برای این عضو برداشته میشود",
+          "same_role_alert": "سطح دسترسی عضو مورد نظر با سطح دسترسی انتخابی شما مشابه است"
+        },
+        "event_management": {
+          "add_members_to_event_bottom_sheet": {
+            "dialog_hint": "در صورت تایید، این عضو به بدون توجه به محدودیت های رویداد ثبت نام می شود",
+            "member_is_registered_in_another_event_in_same_date": "این عضو در مراسمی دیگر در تاریخ مشابه ثبت نام کرده است"
+          },
+          "event_attendance": {
+            "active_events_list": {
+              "title": "رویداد های فعال"
+            },
+            "qr_code_scanner": {
+              "qr_code_is_not_valid": "کد الکترونیکی نا معتبر است",
+              "scan_qr_code": "کد الکترونیکی را اسکن کنید"
+            },
+            "submit_event_attendance": {
+              "description": "توضیحات",
+              "title": "اسکن کد الکترونیکی",
+              "scan": "اسکن کد",
+              "register_enterance": "ثبت ورود",
+              "hint_one": "دکمه اسکن را لمس کنید  و کد الکترونیکی را در کادر مشخص شده قرار دهید",
+              "hint_two": "در صورت ممکن نبودن اسکن میتوانید با کد عضویت حضور عضو ستیا را در مراسم ثبت کنید",
+              "hint_three": "در صورت تایید مشخصات نمایش داده شده حضور عضو ستیا در مراسم ثبت خواهد شد"
+            },
+            "submit_event_entrance_dialog": {
+              "register_entrance_done_successfuly": "ثبت ورود با موفقیت انجام شد",
+              "this_member_is_not_regitered_in_event": "این عضو در مراسم مورد نظر ثبت نام نکرده است",
+              "register_entrance": "ثبت ورود",
+              "phone_number": "تاریخ تولد"
+            }
+          },
+          "event_attendance_list": {
+            "title": "شرکت کنندگان",
+            "present": "حاظر",
+            "absence": "غایب"
+          },
+          "event_member_comment_details": {
+            "title": "بازخورد"
+          },
+          "event_members_survey_list": {
+            "title": "رویداد ها",
+            "no_comment_to_show": "بازخوردی برای نمایش وجود ندارد"
+          },
+          "event_participants_list": {
+            "are_you_sure_you_want_to_remove_this_member_from_the_event": "آیا از حذف این عضو از رویداد اطمینان دارید",
+            "participant": "شرکت کنندگان",
+            "accepted": "تایید شده",
+            "awaiting_for_acception": "در انتظار تایید",
+            "add_participant": "افزودن شرکت کننده",
+            "no_participant_to_show": "شرکت کننده ای برای نمایش جود ندارد"
+          },
+          "management_event_details": {
+            "title": "رویداد",
+            "are_you_sure_you_want_to_delete_this_event": "آیا از حذف این رویداد اطمینان دارید",
+            "need_to_manager_acception": "نیاز به تایید مدیر دارد",
+            "average_feedback": "میانگین بازخورد",
+            "no_feedback": "بدون بازخورد",
+            "remaining_capacity": "ظرفیت باقی مانده",
+            "survey_list": "لیست نظرسنجی",
+            "participants_list": "لیست شرکت کنندگان",
+            "infinity": "نا محدود"
+          },
+          "management_event_list": {
+            "title": "رویداد ها",
+            "new_event": "رویداد جدید",
+            "executed": "اجرا شده",
+            "awaiting": "در انتظار"
+          },
+          "modify_event_form": {
+            "the_total_number_of_selected_photos_exceeds_the_limit": "مجموع عکس های انتخاب شده بیشتر از حد مجاز است",
+            "start_time_cannot_be_before_the_end_time": "ساعت شروع نمیتواند قبل از ساعت پایان باشد",
+            "start_time_cant_be_empty": "ساعت شروع نمی تواند خالی باشد",
+            "event_picture": "تصویر رویداد",
+            "pictures_hint": "برای نمایش بهتر عکس ها از تصاویری که با حالت افقی تصویر برداری شده اند استفاده کنید",
+            "edit_event": "ویرایش رویداد",
+            "add_event": "افزودن رویداد",
+            "incentive_rate": "امتیاز تشویقی",
+            "rate": "امتیاز",
+            "need_to_acception": "نیاز به تایید",
+            "need_to_acception_hint": "در صورت فعال کردن گزینه \"نیاز به تایید\" همه درخواست های شرکت در رویداد باید توسط مدیر یا معاونت روابط عمومی تایید شود",
+            "start_time": "ساعت شروع",
+            "end_time": "ساعت پایان",
+            "time_range": "محدوده زمانی",
+            "date_and_time": "تاریخ و ساعت",
+            "contact_type": "نوع مخاطب",
+            "optional": "اختیاری",
+            "event_title": "عنوان رویداد",
+            "information": "مشخصات",
+            "registration_acception_status": "وضعیت تایید ثبت نام"
+          }
+        },
+        "menu": {
+          "title": "مدیریت",
+          "news_management": "مدیریت خبرنامه",
+          "authorize": "راستی آزمایی",
+          "registration_entrance": "ثبت ورود",
+          "events_management": "مدیریت رویداد ها",
+          "members_management": "مدیریت اعضا"
+        },
+        "modify_member_form": {
+          "add_user": "افزودن کاربر",
+          "edit_user": "ویرایش کاربر",
+          "hint": "لطفا همه بخش های ستاره دار را کامل کنید",
+          "personal_information": "مشخصات فردی",
+          "first_name": "نام",
+          "last_name": "نام خانوادگی",
+          "mobile_number": "شماره موبایل",
+          "parrents_information": "مشخصات والدین",
+          "organization_information": "مشخصات سازمانی",
+          "children_information": "مشخصات فرزندان"
+        },
+        "management_user_profile": {
+          "reset_password_was_successful": "بازنشانی کلمه عبور موفق بود",
+          "are_you_sure_you_want_to_delete_this_memeber": "آیا از حذف این عضو اطمینان دارید",
+          "title": "نمایه کاربر",
+          "reset_password": "بازنشانی کلمه عبور",
+          "access_level": "سطح دسترسی",
+          "reset_password_hint": "با بازنشانی کلمه عبور از این پس می بایست کاربر از شماره تلفن همراه ثبت شده به عنوان کلمه عبور استفاده نماید، کلمه عبور بعدا قابل ویرایش می باشد",
+          "reset": "بازنشانی",
+          "no_children": "بدون فرزند"
+        },
+        "members": {
+          "title": "مدیریت اعضا",
+          "add_user": "افزودن کاربر"
+        },
+        "management_news": {
+          "are_you_sure_you_want_to_delete": "آيا از حذف",
+          "numbers_of_news": " خبر انتخاب شده اطمینان دارید",
+          "title": "مدیریت خبرنامه",
+          "selected_news": "خبر انتخاب شده",
+          "add_news": "افزودن خبر",
+          "upload_pictures": "لطفا عکس ها را آپلود کنید",
+          "news_pictures": "عکس های خبر",
+          "news_text": "متن خبر",
+          "news_title": "عنوان خبر",
+          "edit_news": "ویرایش خبر",
+          "publish_news": "انتشار خبر",
+          "hint_one": " لطفا در انتخاب عکس اصلی دقت فرمایید، عکس ستاره دار به عنوان عکس اصلی خبر در صفحه اصلی و لیست اخبار نمایش داده میشود.",
+          "hint_two": "برای نمایش بهتر عکس ها از تصاویری که با حالت افقی و نسبت 16:9 تصویر برداری شده اند استفاده کنید",
+          "expire_date": "تاریخ انقضا",
+          "publish_date": "تاریخ انتشار",
+          "select_date": "انتخاب تاریخ",
+          "expire_date_status": "وضعیت تاریخ انقضا",
+          "it_has": "دارد",
+          "it_has_no": "ندارد"
+        }
+      },
+      "members_additional_information": {
+        "title": "اطلاعات تکمیلی",
+        "hint": "تکمیل اطلاعات به پیشرفت شما در ستیا سرعت می بخشد"
+      },
+      "members_event": {
+        "members_event_history": {
+          "members_event_history_list": {
+            "title": "رویداد ها"
+          },
+          "members_event_history_details": {
+            "title": "رویداد"
+          }
+        },
+        "members_event_details": {
+          "title": "رویداد",
+          "event_registaration_wass_successful": "ثبت نام شما با موفقیت انجام شد"
+        },
+        "members_event_survey_form": {
+          "title": "بازخورد رویداد",
+          "register_comment": "ثبت بازخورد",
+          "optional_description": "توضیحات اختیاری",
+          "hint": "با ثبت بازخورد خود به ستیا برای بالا بردن کیفیت رویداد ها کمک می کنید و از ۵ امتیاز تشویقی بهره مند می شوید",
+          "your_score_registered_successfuly": "امتیاز شما با موفقیت ثبت شد"
+        },
+        "members_event_survay_list": {
+          "title": "رویداد ها"
+        },
+        "members_event_list": {
+          "title": "رویداد ها"
+        }
+      },
+      "membership_request": {
+        "title": "درخواست احراز هویت",
+        "the_desired_person_is_currently_in_your_children_list": "شخص مورد نظر در حال حاظر در لیست فرزندان شما قرار دارد",
+        "register_request": "ثبت درخواست",
+        "edit_request": "ویرایش درخواست",
+        "hint": "لطفا در وارد کردن اطلاعات دقت کنید، اطلاعات شما توسط مدیر ستیا راستی آزمایی خواهد شد",
+        "mothers_hint": "در صورتی که به عنوان مادر اعضای ستیا از نرم افزار استفاده میکنید این بخش مخصوص شماست",
+        "search_for_child_dialog_title": "کد ملی فرزند خود را وارد کنید"
+      },
+      "mothers": {
+        "children_event_history_details": {
+          "title": "رویداد"
+        },
+        "children_event_history_list": {
+          "title": "رویداد ها"
+        }
+      },
+      "members_news": {
+        "news_list": {
+          "title": "خبرنامه"
+        },
+        "news_preview": {
+          "title": "خبر",
+          "publish_date": "تاریخ انتشار"
+        }
+      },
+      "public_profile": {
+        "title": "نمایه",
+        "to_advance_in_points": "برای پیشرفت در امتیاز",
+        "in_setiya_events": "در برنامه های ستیا",
+        "participate": " شرکت کنید",
+        "event_management": "مدیریت رویداد های من",
+        "change_password": "ویرایش کلمه عبور",
+        "edit_authorize_request": "ویرایش درخواست احراز هویت",
+        "information_completion": "تکمیل اطلاعات",
+        "information_compeletion_hint": "با تکمیل اطلاعات خود برای اولین بار از ۱۰ امتیاز به عنوان هدیه برخوردار شوید",
+        "user_role": "سمت کاربر",
+        "to_access_to_your_profile_complete_authorize_request": "برای دسترسی به پروفایل و بقیه امکانات احراز هویت خود را تکمیل کنید",
+        "authorize_request": "احراز هویت",
+        "dear_user_your_authentication_status_is_under_review": "کاربر گرامی وضعیت احراز هویت شما در دست بررسی است"
+      },
+      "qr_code": {
+        "title": "کد الکترونیکی",
+        "scan_the_qr_code_to_connect": "برای برقراری ارتباط کد الکترونیکی را اسکن کنید",
+        "hint": "با ورود سریع با کد الکترونیکی میتوانید به سادگی حتی وقتی آفلاین هستید ورود خود را ثبت و از رویداد لذت ببرید"
+      },
+      "sign_up": {
+        "title": "ثبت نام",
+        "remember_me": "مرا به خاطر بسپار",
+        "signup_to_setiya": "ثبت نام ستیا"
+      }
+    },
+    "shared": {
+      "infos": {
+        "description": "توضیحات",
+        "no_events_to_show": "رویدادی برای نمایش جود ندارد",
+        "no_users_to_show": "کاربری برای نمایش وجود ندارد",
+        "no_events_to_survey": "رویدادی برای نظرسنجی وجود ندارد",
+        "no_news_to_show": "خبری برای نمایش وجود ندارد"
+      },
+      "commons": {
+        "back": "بازگشت",
+        "edit": "ویرایش",
+        "success": "موفق",
+        "warning": "هشدار",
+        "remember_me": "مرا به خاطر بسپار",
+        "nationalcode": "کد ملی",
+        "register": "ثبت",
+        "search": "جست و جو",
+        "not_registered": "ثبت نشده",
+        "add": "افزودن",
+        "delete": "حذف",
+        "date": "تاریخ",
+        "from": "از",
+        "to": "تا",
+        "cancle": "انصراف",
+        "retry": "تلاش دوباره",
+        "i_get_it": "متوجه شدم"
+      },
+      "exceptions": {
+        "occured": "Recieve information was unsuccessfull",
+        "DocumentNotExist": "مدرک مورد نظر پیدا نشد",
+        "MemberAlreadyExist": "این عضو قبلا ثبت نام شده است",
+        "MemberNotFound": "عضو مورد نظر یافت نشد",
+        "OtherMemberAlreadyUsedThisMobileNumber": "عضو دیگری با این کد ملی ثبت شده است",
+        "AddUserToRoleFailed": "ثبت حق دسترسی برای کاربر با مشکل مواجه شده است",
+        "ApplicationUserNotFound": "کاربر مورد نظر یافت نشد",
+        "ChangePasswordFailed": "تغییر رمز عبور با مشکل مواجه شد",
+        "CreateApplicationUserFail": "ایجاد حساب کاربری برای این عضو با مشکل مواجه شد",
+        "CurrentPasswordIsNotCorrect": "رمز عبور فعلی اشتباه است",
+        "DuplicatedApplicationUser": "این حساب کاربری قبلا ثبت شده است",
+        "LockOutUserFailed": "غیر فعال سازی حساب کاربری با مشکل مواجه شد",
+        "MaxVerificationCodeCount": "کد های تایید بیش از حد مجاز ارسال شده است",
+        "SignUpFailed": "خروج از حساب کاربری با مشکل مواجه شد",
+        "UpdateApplicationUserFailed": "ویرایش عضو با مشکل مواجه شد",
+        "UserAlreadyExist": "حساب کاربری وجود دارد",
+        "UserIsInactive": "حساب کاربری غیر فعال است",
+        "VerificationCodeNotExist": "کد تایید وجود ندارد",
+        "WrongUsernameOrPassword": "نام کاربری یا رمز عبور اشتباه است",
+        "WrongVerificationCode": "کد تایید اشتباه است",
+        "AnnoucementNotFound": "خبر یافت نشد",
+        "ExpireDateIsInPast": "تاریخ انقضا نمی تواند در زمان گذشته باشد",
+        "EventDoesntHaveCapacityForRegisterMember": "ظرفیت رویداد تکمیل است",
+        "EventNotStartedYet": "رویداد هنوز اجرا نشده است",
+        "EventStartedAndYouCantCancelIt": "رویداد هم اکنون اجرا شده است، لغو رویداد امکان پذیر نست",
+        "MemberAlreadyAddCommentToSetiaEvent": "شما در حال حاظر بازخورد خود را ثبت کرده اید",
+        "MemberAlreadyRegisteredInEvent": "کاربر قبلا در رویداد ثبت نام کرده است",
+        "MemberCantRegisteredBecauseEventFinished": "رویداد پایان یافته است",
+        "MemberCantRegisteredBecauseEventRateIsMore": "شما امتیاز کافی برای شرکت در این رویداد را ندارید",
+        "MemberEntranceAlreadyAdded": "ورود این عضو قبلا ثبت شده است",
+        "MemberEventCantBeRemovedBecauseEventFinished": "رویداد پایان یافته است، خذف این عضو امکان پذیر نیست",
+        "MemberIsPresentInEvent": "این عضو در رویداد حضور دارد",
+        "MemberIsPresentInOtherEventNow": "این عضو در حال حاظر در رویدادی دیگر حضور دارد",
+        "MemberNotRegisteredInEvent": "این عضو در رویداد ثبت نام نکرده است",
+        "MemberWasNotPresentInEvent": " این عضو در رویداد حضور نداشته است",
+        "SetiaEventFinishedMoreThanTwoDays": "زمان ثبت بازخورد پایان یافته است",
+        "SetiaEventNotFound": "رویداد مورد نظر یافت نشد",
+        "StartDateCantBeAfterEndDate": "تاریخ شروع نمی تواند قبل از تاریخ پایان باشد",
+        "ThisMemberIsNotYourChild": "ای عضو فرزند شما نیست",
+        "ChildIsNotValid": "فرزند معتبر نیست",
+        "ChildNotFound": "فرزند پیدا نشد",
+        "MemberAlreadyHasMother": "این عضو فرزند شخص دیگریست",
+        "MemberAlreadyIsMother": "این عضو مادر است",
+        "OneOfChildrenAlreadyHasMother": "یکی از فرزندان، فرزند شخص دیگری است"
+      },
+      "text_field_valodations": {
+        "password_validation": "کلمه عبور باید شامل ۸ تا ۱۲ کاراکتر بدون فاصله باشد",
+        "passwords_are_not_same": "کلمه های عبور یکسان نیستند",
+        "nationalcode_validation": "کد ملی معتبر نمی باشد",
+        "mobile_number_is_not_valid": "شماره موبایل معتبر نمی باشد",
+        "phone_number_hint": "همراه با صفر یا بدون صفر",
+        "telephone_hint": "همراه با کد استان با صفر یا بدون صفر",
+        "telephone_is_not_valid": "شماره تلفن معتبر نمی باشد",
+        "enter_expire_date_validator": "لطفا تاریخ انقضا را وارد کنید"
+      },
+      "events": {
+        "audience": "مخاطب",
+        "address": "آدرس",
+        "free": "رایگان",
+        "time": "ساعت",
+        "toman": "تومان",
+        "rates_required": "امتیاز مورد نیاز",
+        "event_cost": "هزینه شرکت",
+        "date_of_holding": "تاریخ برگزاری",
+        "execution_status": "وضعیت اجرا"
+      },
+      "members": {
+        "birthdate": "تاریخ تولد",
+        "membership_code": "کد عضویت",
+        "marriage_status": "وضعیت تاهل",
+        "married": "متاهل",
+        "single": "مجرد",
+        "national_code": "کد ملی",
+        "mother_name": "نام مادر",
+        "father_name": "نام پدر",
+        "father_job": "شغل پدر",
+        "mother_phone_number": "تلفن مادر",
+        "rate": "امتیاز",
+        "children": "فرزندان",
+        "address": "آدرس",
+        "telephone": "تلفن محل سکونت"
+      },
+      "enums": {
+        "just_mothers": "فقط مادران",
+        "just_members": "فقط اعضا",
+        "with_mothers": "همراه با مادر",
+        "registered": "ثبت نام شده",
+        "present": "حضور",
+        "cancel": "لغو",
+        "absence": "غیبت",
+        "awaiting_confirmation": "در انتظار تایید",
+        "canceled": "لغو شده",
+        "married": "متاهل",
+        "single": "مجرد"
+      },
+      "views": {
+        "widgets": {
+          "new_image": "عکس جدید",
+          "total_photos": "event_management",
+          "as_main_picture": "به عنوان عکس اصلی",
+          "delete_picture": "حذف عکس",
+          "there_are_no_items_to_display": "موردی برای نمایش وجود ندارد"
+        },
+        "dialogs": {
+          "offline_entrance": "ورود آفلاین",
+          "connection_with_the_server_is_not_possible": "ارتباط با سرور ممکن نیست، برای استفاده از نرم افزار ستیا به اینترنت متصل شوید",
+          "you_are_offline": "شما به اینترنت متصل نیستید"
+        },
+        "pages": {
+          "your_access_to_the_desired_page_is_restricted": "دسترسی شما به صفحه مورد نظر محدود شده است"
+        }
+      }
+    },
+    "infrastructures": {
+      "role_names": {
+        "setiya_manager": "مدیر ستیا",
+        "director_of_public_relations": "کادر روابط عمومی",
+        "media_manager": "کادر رسانه",
+        "mother": "مادر",
+        "setiya_member": "عضو ستیا",
+        "guest": "مهمان"
+      },
+      "utils": {
+        "other_error": "خطای دیگر",
+        "this_field_cant_be_empty": "این فیلد نمی تواند خالی باشد"
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+name: example
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.5
+  get_storage: ^2.0.3
+
+
+  setia_module:
+    path: ../
+
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: IRANSans
+      fonts:
+        - asset: assets/fonts/IRANSansMobile_Black.ttf
+          style: normal
+          weight: 900
+
+    - family: IRANSans
+      fonts:
+        - asset: assets/fonts/IRANSansMobile_Bold.ttf
+          style: normal
+          weight: 700
+
+    - family: IRANSans
+      fonts:
+        - asset: assets/fonts/IRANSansMobile_Medium.ttf
+          style: normal
+          weight: 500
+
+    - family: IRANSans
+      fonts:
+        - asset: assets/fonts/IRANSansMobile_Light.ttf
+          style: normal
+          weight: 300
+
+    - family: IRANSans
+      fonts:
+        - asset: assets/fonts/IRANSansMobile_UltraLight.ttf
+          style: normal
+          weight: 200
+
+    - family: IRANSans
+      fonts:
+        - asset: assets/fonts/IRANSansMobile.ttf
+          style: normal

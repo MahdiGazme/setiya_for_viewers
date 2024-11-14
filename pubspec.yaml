@@ -1,0 +1,45 @@
+name: setia_module
+description: first freelancing project
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.5
+  get_cli: ^1.8.1
+  get_storage: ^2.0.3
+  smooth_page_indicator: ^1.0.0+2
+  url_launcher: ^6.1.7
+  persian_datetime_picker: ^2.6.0
+  qr_flutter: ^4.0.0
+  qr_code_scanner: ^1.0.1
+  image_picker: ^0.8.7
+  flutter_rating_bar: ^4.0.1
+
+  milky_http_client:
+    path: packages/milky_http_client
+
+  milky_avatar_selector:
+    path: packages/milky_avatar_selector
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/
+    - lib/assets/menu_icons/
+
